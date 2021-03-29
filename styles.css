@@ -1,0 +1,77 @@
+/* Write your CSS here! */
+
+body {
+  display: block;
+  margin: 8px;
+}
+
+main {
+  color: #0e2c35;
+}
+
+nav {
+  position: absolute;
+}
+
+header {
+  padding: 8px;
+  color: #0e2c35;
+  border-bottom: 5px solid #0e2c35;
+}
+
+footer {
+  background: #257389;
+  padding: 8px;
+  color: #fff;
+}
+
+nav a {
+  display: inline-block;
+  margin: 8px;
+  color: #0e2c35;
+  text-decoration: none; 
+  text-align: center;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #257389;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+#mainHeading {
+  color: red;
+}
+
+.funParagraph {
+  color: green;
+}
+
+.image-container {
+  text-align: center;
+}
+
+.image-container figure {
+  display: inline-block;
+  text-align: center;
+}
+
+.image-container.scroll {
+ display: flex;
+ overflow: scroll;
+}
+
+button.link {
+  background: transparent;
+  border: 0;
+  text-decoration: underline;
+  color: #257389;
+}
+
+button:hover, button:focus, button:active, button:visited {
+  cursor: pointer;
+  color: #0e2c35;
+}
